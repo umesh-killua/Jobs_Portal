@@ -1,5 +1,5 @@
 /* font awesome cdn link */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+@import url('/css/font.css');
 
 /* google font csn link */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
