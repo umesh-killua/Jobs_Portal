@@ -1,5 +1,5 @@
 /* font awesome cdn link */
-@import url('/css/font.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 
 /* google font csn link */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
@@ -14,8 +14,6 @@
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     --border: .1rem solid rgba(0, 0, 0, .2);
 }
-
-
 
 
 * {
@@ -106,7 +104,6 @@ section {
     text-align: center;
 }
 
-
 .btn:hover {
     background-color: var(--black);
 }
@@ -131,7 +128,6 @@ section {
     z-index: 1000;
 }
 
-
 .header .flex {
     position: relative;
     display: flex;
@@ -152,12 +148,10 @@ section {
     color: var(--black);
 }
 
-
 .header .flex .logo i {
     margin-right: .5rem;
     color: var(--light-color);
 }
-
 
 .header .flex .navbar a {
     display: inline-block;
@@ -167,24 +161,19 @@ section {
     border-radius: .5rem;
 }
 
-
 .header .flex .navbar a:hover {
     background-color: var(--main-color);
     color: var(--white);
 }
 
 
-
-
-
 .home-container {
-    background: url('/images/screw_1920.jpg'), rgba(0, 0, 0, .7) no-repeat;
+    background: url('/images/Job\ hunt-amico.png'), rgba(0, 0, 0, .7) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-blend-mode: color;
 }
-
 
 .home-container .home {
     min-height: 80vh;
@@ -192,7 +181,6 @@ section {
     align-items: center;
     justify-content: center;
 }
-
 
 .home-container .home form {
     background-color: var(--white);
@@ -202,14 +190,12 @@ section {
     text-align: center;
 }
 
-
 .home-container .home form h3 {
     font-size: 2.5rem;
     color: var(--black);
     margin-bottom: 1rem;
     text-transform: capitalize;
 }
-
 
 .home-container .home form p {
     text-align: left;
@@ -218,11 +204,9 @@ section {
     padding-top: 1rem;
 }
 
-
 .home-container .home form p span {
     color: var(--red);
 }
-
 
 .home-container .home form .input {
     width: 100%;
@@ -235,8 +219,6 @@ section {
 }
 
 
-
-
 .category .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 25rem);
@@ -244,7 +226,6 @@ section {
     align-items: flex-start;
     gap: 1.5rem;
 }
-
 
 .category .box-container .box {
     border-radius: .5rem;
@@ -257,7 +238,6 @@ section {
     gap: 2rem;
 }
 
-
 .category .box-container .box i {
     height: 4.5rem;
     width: 5rem;
@@ -269,7 +249,6 @@ section {
     text-align: center;
 }
 
-
 .category .box-container .box h3 {
     font-size: 1.8rem;
     text-transform: capitalize;
@@ -277,35 +256,28 @@ section {
     padding-bottom: .5rem;
 }
 
-
 .category .box-container .box span {
     color: var(--light-color);
     font-size: 1.6rem;
 
 }
 
-
 .category .box-container .box:hover {
     background-color: var(--black);
 }
-
 
 .category .box-container .box:hover h3 {
     color: var(--white);
 }
 
-
 .category .box-container .box:hover span {
     color: var(--white);
 }
-
 
 .category .box-container .box:hover i {
     color: var(--black);
     background-color: var(--white);
 }
-
-
 
 
 .jobs-container .box-container {
@@ -408,6 +380,13 @@ section {
 }
 
 
+.crop-about {
+    width: 100%; 
+    height: 700px; 
+    object-fit: cover;
+    object-position: 50% 50%; 
+    overflow: hidden;
+}
 
 
 .about img {
@@ -436,7 +415,6 @@ section {
     color: var(--light-color);
     font-size: 1.6rem;
 }
-
 
 
 .reviews .box-container {
@@ -505,7 +483,6 @@ section {
     color: var(--light-color);
     font-size: 1.6rem;
 }
-
 
 
 .job-filter form {
@@ -611,7 +588,6 @@ section {
 }
 
 
-
 .job-details .details {
     background-color: var(--white);
     border-radius: .5rem;
@@ -714,8 +690,6 @@ section {
 }
 
 
-
-
 .view-company .details {
     background-color: var(--white);
     box-shadow: var(--box-shadow);
@@ -776,7 +750,6 @@ section {
     color: var(--light-color);
     padding-top: 1.5rem;
 }
-
 
 
 .contact .box-container {
@@ -869,9 +842,8 @@ section {
 }
 
 
-
 .account-form-container{
-    background: url('../images/404\ error\ lost\ in\ space-bro.png'), rgba(0, 0, 0, .7) no-repeat;
+    background: url('../images/Tablet\ login-bro.png'), rgba(0, 0, 0, .7) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -924,12 +896,6 @@ section {
 }
 
 
-
-
-
-
-
-
 .footer .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, 30rem);
@@ -937,7 +903,6 @@ section {
     justify-content: center;
     align-items: flex-start;
 }
-
 
 .footer .grid .box h3 {
     font-size: 2rem;
@@ -947,7 +912,6 @@ section {
     text-transform: capitalize;
 }
 
-
 .footer .grid .box a {
     display: block;
     padding: 1rem 0;
@@ -955,18 +919,15 @@ section {
     color: var(--light-color);
 }
 
-
 .footer .grid .box a i {
     color: var(--main-color);
     margin-right: .8rem;
     transition: .2s linear;
 }
 
-
 .footer .grid .box a:hover i {
     margin-right: 2rem;
 }
-
 
 .footer .credit {
     text-align: center;
@@ -978,14 +939,10 @@ section {
     line-height: 1.5;
 }
 
-
 .footer .credit span {
     color: var(--main-color);
     text-transform: capitalize;
 }
-
-
-
 
 
 
@@ -999,7 +956,6 @@ section {
         font-size: 3.5rem;
     }
 }
-
 
 @media (max-width:768px) {
     #menu-btn {
