@@ -7,4 +7,4 @@ Developed by Mr. Umesh Kumar.
 
 .PNG images are used in these web pages.
 
-For further details conact: umesh-killua@protonmail.com
+For further details contact: umesh-killua@protonmail.com
